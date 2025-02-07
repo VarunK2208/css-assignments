@@ -1,0 +1,22 @@
+body{
+    background-color: wheat;
+}
+
+h2{
+    text-align: center;
+    color: brown;
+    text-decoration: underline;
+}
+
+.container{
+    background-color: white;
+    border: 20px solid green;
+    width: 600px;
+    height: 230px;
+    margin-top: 60px;
+    margin-left: 350px;
+    margin-right: 31px;
+    margin-bottom: 29px;
+    padding: 22px 22px 22px 22px;
+
+}
