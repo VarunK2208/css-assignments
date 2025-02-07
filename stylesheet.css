@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: darkkhaki;
+    margin: auto;
+}
+
+p {
+    font-family: cursive;
+}
