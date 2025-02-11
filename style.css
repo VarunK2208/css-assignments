@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    animation-name: head;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+     
+}
+
+@keyframes head {
+    0% {background-color: orange;}
+    25% {background-color: red;}
+    50% {background-color: green;}
+    75% {background-color: blue;}
+    100% {background-color: white;}
+    
+}
+
+
+
+.main {
+margin: auto;
+    padding: 50px;
+    width: 50%;
+    position: relative;
+    background-color: cyan;
+    transition: width 2s;
+
+}
+
+.main:hover {
+    width: 100%;
+}
+
+
+
+.end {
+    width: 100px;
+    margin-top: 10px;
+    padding: 20px;
+    background-color:rgb(221, 195, 238);
+    animation: main;
+    animation-duration: 10s;
+    position: relative;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes main {
+    0%   {background-color:red; left:0%; }
+    25%  {background-color:yellow; left:100%; }
+    50%  {background-color:blue; left:0%; }
+    75%  {background-color:green; left:100%; }
+    100% {background-color:red; left:0%; }
+    
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .spin {
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    background-color: hotpink;
+    animation: spin 4s linear infinite;
+  }
+
+
+  
+  @keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-50px); }
+  }
+  
+  #bounce {
+    text-align: center;
+    border-radius: 40%;
+    margin: auto;
+    padding: 50px;
+    margin-top: 100px;
+    width: 30%;
+    height: 40px;
+    background-color: rgb(105, 255, 138);
+    animation: bounce 1s ease infinite;
+  }
+  
+
